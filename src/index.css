@@ -5,6 +5,9 @@
     list-style: none;
     text-decoration: none;
 }
+body{
+    height: 100vh;
+}
 
 @tailwind base;
 @tailwind components;
