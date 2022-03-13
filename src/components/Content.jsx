@@ -10,7 +10,6 @@ const Content = () => {
                 <Link link={"https://github.com/AsadullohRuziev/food"} title={'Foodshop'}></Link>
                 <Link link={"https://github.com/AsadullohRuziev/calculator"} title={'Calculator'}></Link>
                 <Link link={"https://github.com/AsadullohRuziev/escape"} title={'Escape'}></Link>
-                <Link link={"https://github.com/AsadullohRuziev/tictactoe"} title={'TicTacToe'}></Link>
                 <Link link={"https://github.com/AsadullohRuziev/"} title={'More...'}></Link>
             </div>
       </div>;
