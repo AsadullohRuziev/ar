@@ -51,6 +51,8 @@ const Main = () => {
         <Text dot={<Dot/>} title={"Bootstrap"}/>
         <Text dot={<Dot/>} title={"Javascript"}/>
         <Text dot={<Dot/>} title={"Reactjs"}/>
+        <Text dot={<Dot/>} title={"Redux"}/>
+        <Text dot={<Dot/>} title={"Nextjs"}/>
         <Text dot={<Dot/>} title={"Git"}/>
         <Text dot={<Dot/>} title={"GitHub"}/>
         <Languages>
