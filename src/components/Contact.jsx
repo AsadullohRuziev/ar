@@ -24,6 +24,7 @@ const Contact = () => {
       </Left>
       <Right>
         <h1>AR</h1>
+        <Moon/>
       </Right>
     </Section>
   );
@@ -40,7 +41,6 @@ const Section = styled.section`
 
 const Left = styled.div`
   width: 40%;
-  /* border: 1px solid red; */
   h2{
       font-size: 35px;
       margin-bottom: 20px;
@@ -56,7 +56,19 @@ const Left = styled.div`
 `;
 
 const Right = styled.div`
-  /* width: 50%; */
-  /* border: 1px solid red; */
   font-size: 50px;
+  h1{
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+`;
+
+
+const Moon = styled.div`
+    width: 200px;
+    height: 100px;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border: 7px solid #ff914d;
+    border-top: 0;
 `;
