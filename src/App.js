@@ -1,10 +1,12 @@
-import Head from './components/Head';
+import Contact from './components/Contact';
 import Content from './components/Content';
+import Heading from './components/Heading';
 
 function App() {
   return (
     <div className="App">
-      <Head/>
+      <Heading/>
+      <Contact/>
       <Content/>
     </div>
   );
