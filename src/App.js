@@ -1,15 +1,17 @@
-import Contact from './components/Contact';
-import Content from './components/Content';
-import Heading from './components/Heading';
+import React from 'react'
+import Aboutme from './components/Aboutme'
+import Contact from './components/Contact'
+import Main from './components/Main'
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <Heading/>
-      <Contact/>
-      <Content/>
+    <div>
+        <Contact/>
+        <Aboutme/>
+        <Main/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

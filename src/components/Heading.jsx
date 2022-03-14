@@ -1,22 +1,14 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
+const Heading = ({ title }) => {
+  return <H1>{title}</H1>;
+};
 
-const Heading = () => {
-  return (
-    <Head>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque minus </h2>
-    </Head>
-  )
-}
+export default Heading;
 
-export default Heading
-
-
-
-const Head = styled.div`
-  border-bottom: 10px solid #ff914d;
-  background-color: #ffead5;
-  h2{
-    color:  red;
-  }
-`
+const H1 = styled.h2`
+  width: 80%;
+  color: #333;
+  border-bottom: 4px solid #ff914d;
+  font-family: Georgia, "Times New Roman", Times, serif;
+`;  
