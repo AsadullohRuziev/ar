@@ -18,6 +18,9 @@ const Contact = () => {
         <a href="https://github.com/AsadullohRuziev">
           GitHub: github.com/AsadullohRuziev
         </a>
+        <a href="https://asadulloh.vercel.app/">
+          Website: asadulloh.vercel.app/
+        </a>
       </Left>
       <Right>
         <h1>AR</h1>
