@@ -5,20 +5,20 @@ const Contact = () => {
     <Section>
       <Left>
         <h2>Contact me at:</h2>
-        <a href="https://goo.gl/maps/BhhwNbFHbAGA7QFh8">
+        <a href="https://goo.gl/maps/BhhwNbFHbAGA7QFh8" target="_blank">
           Address: Toshkent, Uzbekistan
         </a>
         <a href="mailto: asadullohruziev@gmail.com">
           Email: asadullohruziev@gmail.com
         </a>
         <a href="tel:+998996795407">Phone: +998 99 679 54 07</a>
-        <a href="www.linkedin.com/in/asadullohruziev">
+        <a href="www.linkedin.com/in/asadullohruziev" target="_blank">
           LinkedIn: linkedin.com/in/asadullohruziev
         </a>
-        <a href="https://github.com/AsadullohRuziev">
+        <a href="https://github.com/AsadullohRuziev" target="_blank">
           GitHub: github.com/AsadullohRuziev
         </a>
-        <a href="https://asadulloh.vercel.app/">
+        <a href="https://asadulloh.vercel.app/" target="_blank">
           Website: asadulloh.vercel.app/
         </a>
       </Left>
