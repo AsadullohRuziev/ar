@@ -10,7 +10,7 @@ const Main = () => {
         <Heading title={"Work Experience"} />
         <h4>FRONTEND DEVELOPER</h4>
         <h4>Red Fox IT academy</h4>
-        <Text title={"Avg 2021 - present"} />
+        <Text title={"Avg 2020 - Feb 2022"} />
         <Text
           title={"As the Front End Developer, my core activities include"}
         />

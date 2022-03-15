@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import cv from '../assets/AsadullohRuziev.pdf'
 const Contact = () => {
   return (
     <Section>
@@ -19,12 +20,14 @@ const Contact = () => {
           GitHub: github.com/AsadullohRuziev
         </a>
         <a href="https://asadulloh.vercel.app/" target="_blank" rel="noreferrer">
-          Website: asadulloh.vercel.app/
+          Website: asadulloh.vercel.app
         </a>
       </Left>
       <Right>
         <h1>AR</h1>
-        <Moon/>
+        <Moon>
+          <Cv className="button-30" href={cv} download>CV</Cv>
+        </Moon>
       </Right>
     </Section>
   );
@@ -71,4 +74,60 @@ const Moon = styled.div`
     border-bottom-right-radius: 110px;
     border: 7px solid #ff914d;
     border-top: 0;
+`;
+
+
+const Cv = styled.a`
+  margin-left: 36%;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+
+/* CSS */
+
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 1px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  &:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+
+&:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+&:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+}
+
+
+
 `;
