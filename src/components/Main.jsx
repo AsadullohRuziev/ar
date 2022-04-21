@@ -55,6 +55,8 @@ const Main = () => {
         <Text dot={<Dot/>} title={"Nextjs"}/>
         <Text dot={<Dot/>} title={"Git"}/>
         <Text dot={<Dot/>} title={"GitHub"}/>
+        <Text dot={<Dot/>} title={"PHP "}/>
+        <Text dot={<Dot/>} title={"Laravel learning"}/>
         <Languages>
         <Heading title={"Languages"}/>
         <Text title={"English"}/>
