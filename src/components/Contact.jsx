@@ -41,7 +41,7 @@ const Section = styled.section`
   align-items: center;
   justify-content: space-between;
   @media (max-width: 1440px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 0;
     margin: 0;
     justify-content: space-between;
@@ -64,7 +64,6 @@ const Left = styled.div`
   }
   @media (max-width: 1440px) {
     flex-direction: column;
-    padding-top: 100px;
     padding-bottom: 100px;
     margin: 0;
     width: 100%;
@@ -86,6 +85,8 @@ const Right = styled.div`
   }
   @media (max-width: 1440px) {
     padding-bottom: 100px;
+    padding-top: 100px;
+
   }
 `;
 

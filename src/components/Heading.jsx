@@ -11,4 +11,7 @@ const H1 = styled.h2`
   color: #333;
   border-bottom: 4px solid #ff914d;
   font-family: Georgia, "Times New Roman", Times, serif;
+  @media (max-width: 1440px){
+    width: 100%;
+  }
 `;  

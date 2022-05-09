@@ -46,4 +46,7 @@ const Section = styled.section`
       font-size: 40px;
     }
   }
+  @media (max-width: 425px){
+    width:90%;
+  }
 `;

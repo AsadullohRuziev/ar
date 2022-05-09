@@ -16,4 +16,7 @@ export default Text
 const P = styled.p`
   font-size: 20px;
   width: 85%;
+  @media (max-width: 1440px){
+    width: 100%;
+  }
 `;
