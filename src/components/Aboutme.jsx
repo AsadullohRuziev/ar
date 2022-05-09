@@ -11,7 +11,7 @@ const Aboutme = () => {
       <h3>About me</h3>
       <Text
         title={
-          '"Hi, there 🖐I am a Front-end developer with 10 years of experience. I develop responsive websites from simple landings to complex web applications. For my vast experience, I have developed more than 7 online stores on Shopify, more than 30 React projects. I guarantee that the project I created will be fast as it is Google friendly and SEO friendly.    In my work, I use modern web technologies like React, ReactNative, Next.js, Redux, Gatsby, Contentful"'
+          '"Hi, there 🖐I am a Front-end developer with 2+ years of experience. I develop responsive websites from simple landings to complex web applications. For my vast experience, I have developed more than 7 online stores on Shopify, more than 30 React projects. I guarantee that the project I created will be fast as it is Google friendly and SEO friendly.    In my work, I use modern web technologies like React,  Next.js, Redux, Gatsby, Contentful"'
         }
       />
     </Section>

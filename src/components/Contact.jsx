@@ -20,8 +20,8 @@ const Contact = () => {
         <a href="https://github.com/AsadullohRuziev" target="_blank" rel="noreferrer">
           GitHub: github.com/AsadullohRuziev
         </a>
-        <a href="https://asadulloh.vercel.app/" target="_blank" rel="noreferrer">
-          Website: asadulloh.vercel.app
+        <a href="https://asad.vercel.app/" target="_blank" rel="noreferrer">
+          Website: asad.vercel.app
         </a>
       </Left>
       <Right>
