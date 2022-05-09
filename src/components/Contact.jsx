@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <Section>
       <Left>
-        <h2>Contact me at:</h2>
+        <h2>Contact</h2>
         <a href="https://goo.gl/maps/BhhwNbFHbAGA7QFh8" target="_blank" rel="noreferrer">
           Address: Toshkent, Uzbekistan
         </a>
