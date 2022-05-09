@@ -40,10 +40,16 @@ const Section = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media (max-width: 1440px) {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+  }
 `;
 
 const Left = styled.div`
-  width: 40%;
+  // width: 40%;
   h2{
       font-size: 35px;
       margin-bottom: 20px;
@@ -56,6 +62,20 @@ const Left = styled.div`
     font-weight: 500;
     line-height: 28px;
   }
+  @media (max-width: 1440px) {
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0;
+    width: 100%;
+    justify-content: space-between;
+    h2{
+      text-align: center;
+    }
+    a{
+      text-align: center;
+    }
+  }
 `;
 
 const Right = styled.div`
@@ -63,6 +83,9 @@ const Right = styled.div`
   h1{
     margin-left: 40px;
     margin-bottom: 20px;
+  }
+  @media (max-width: 1440px) {
+    padding-bottom: 100px;
   }
 `;
 

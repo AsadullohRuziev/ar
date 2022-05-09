@@ -7,11 +7,11 @@ const Aboutme = () => {
   return (
     <Section>
       <h1>Asadulloh Ruziev</h1>
-      <Heading title={"Fontend developer"} />
+      <Heading title={"Fontend developer"}/>
       <h3>About me</h3>
       <Text
         title={
-          '" Creative and self-starting Front-End Developer building stable eCommerce websites and apps in fast-paced,collaborative environments. Highly skilled in HTML/CSS/JavaScript and working knowledge of Reactjs. "'
+          '"Hi, there 🖐I am a Front-end developer with 10 years of experience. I develop responsive websites from simple landings to complex web applications. For my vast experience, I have developed more than 7 online stores on Shopify, more than 30 React projects. I guarantee that the project I created will be fast as it is Google friendly and SEO friendly.    In my work, I use modern web technologies like React, ReactNative, Next.js, Redux, Gatsby, Contentful"'
         }
       />
     </Section>
@@ -34,5 +34,16 @@ const Section = styled.section`
   p {
     margin-top: 10px;
     line-height: 30px;
+  }
+  @media (max-width: 1440px) {
+    width: 50%;
+    margin: 0 auto;
+    h1, h3, p{
+      text-align: center;
+    }
+    h1{
+      padding-bottom:100px;
+      font-size: 40px;
+    }
   }
 `;

@@ -56,7 +56,7 @@ const Main = () => {
         <Text dot={<Dot/>} title={"Git"}/>
         <Text dot={<Dot/>} title={"GitHub"}/>
         <Text dot={<Dot/>} title={"PHP "}/>
-        <Text dot={<Dot/>} title={"Laravel learning"}/>
+        <Text dot={<Dot/>} title={"Laravel"}/>
         <Languages>
         <Heading title={"Languages"}/>
         <Text title={"English"}/>
@@ -70,8 +70,18 @@ const Main = () => {
 export default Main;
 
 const Section = styled.section`
-  padding: 200px;
+width: 70%;
+margin: 0 auto;
   display: flex;
+  justify-content: center;
+  @media (max-width: 1440px){
+    flex-direction:column;
+    width: 100%;
+    margin: 0 auto;
+  align-items: center;
+  padding-top:100px;
+
+  }
 `;
 
 const Work = styled.div`
@@ -82,6 +92,11 @@ const Work = styled.div`
   }
   p{
       line-height: 30px;
+  }
+  @media (max-width: 1440px){
+    width: 50%;
+    margin: 0 auto;
+    padding-top:100px;
   }
 `;
 
@@ -94,15 +109,30 @@ const Edu = styled.div`
   p{
       line-height: 30px;
   }
+  @media (max-width: 1440px){
+    width: 50%;
+    margin: 0 auto;
+    padding-top:100px;
+  }
 `;
 
 const Skills = styled.div`
   width: 33.3%;
   line-height: 30px;
+  @media (max-width: 1440px){
+    width: 50%;
+    margin: 0 auto;
+    padding-top:100px;
+  }
 `;
 const Languages = styled.div`
   margin-top: 50px;
   line-height: 40px;
+  @media (max-width: 1440px){
+    width: 100%;
+    margin: 0 auto;
+    padding-top:100px;
+  }
 `;
 
 const Dot = styled.div`
