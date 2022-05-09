@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import cv from '../assets/AsadullohRuziev.pdf'
+import {MdOutlineDownloadForOffline} from 'react-icons/md'
 const Contact = () => {
   return (
     <Section>
@@ -26,7 +27,8 @@ const Contact = () => {
       <Right>
         <h1>AR</h1>
         <Moon>
-          <Cv className="button-30" href={cv} download>CV</Cv>
+          
+          <Cv className="button-30" href={cv} download><MdOutlineDownloadForOffline/></Cv>
         </Moon>
       </Right>
     </Section>
@@ -64,6 +66,7 @@ const Left = styled.div`
   }
   @media (max-width: 1440px) {
     flex-direction: column;
+    padding-top: 100px;
     padding-bottom: 100px;
     margin: 0;
     width: 100%;
@@ -84,9 +87,7 @@ const Right = styled.div`
     margin-bottom: 20px;
   }
   @media (max-width: 1440px) {
-    padding-bottom: 100px;
     padding-top: 100px;
-
   }
 `;
 
