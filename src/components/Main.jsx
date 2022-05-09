@@ -72,6 +72,8 @@ export default Main;
 const Section = styled.section`
 width: 70%;
 margin: 0 auto;
+padding-top: 100px;
+
   display: flex;
   justify-content: center;
   @media (max-width: 1440px){

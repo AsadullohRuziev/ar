@@ -22,7 +22,7 @@ export default Aboutme;
 
 const Section = styled.section`
   width: 45%;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   margin-left: 45%;
 
   h1 {
