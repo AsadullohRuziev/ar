@@ -8,11 +8,9 @@ import Main from './components/Main'
 const App = () => {
   return (
     <div>
-        <Link/>
         <Contact/>
         <Aboutme/>
         <Main/>
-        <Link/>
     </div>
   )
 }
