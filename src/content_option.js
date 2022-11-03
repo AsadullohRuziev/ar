@@ -1,3 +1,7 @@
+import mock1 from './assets/portfolio/mock1.png';
+
+
+
 const logotext = "Asadulloh";
 const meta = {
     title: "Asadulloh",
@@ -9,15 +13,15 @@ const introdata = {
     animated: {
         first: "I love coding",
         second: "I code cool websites",
-        third: "I develop mobile apps",
+        third: "I develop Web apps",
     },
     description: "In react router v6, the exact prop has been removed and you can put your routes in whatever order you wish and the router automatically detects the best route for the current URL.",
-    // your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "a bit about my self",
+    aboutme: "Now I would like to tell you something about my own background. I graduated from Academic lyceum of Termez State University in 📅2017 – 2019 with a degree Social Sciences GPA 4.82, after which I worked in the Frontend developer field . My years at university awakened a life long interest in Web development, UX & UI Design, Mobile apps and so on",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -36,25 +40,30 @@ const worktimeline = [{
     },
 ];
 
-const skills = [{
-        name: "Lalaku",
-        value: 90,
+const skills = [
+    {
+        name: "HTML, CSS",
+        value: 89,
     },
     {
-        name: "Djano",
+        name: "SASS, Bootstrap, Tailwind CSS, Material-UI",
+        value: 75,
+    },
+    {
+        name: "Javascript, Typescript",
+        value: 91,
+    },
+    {
+        name: "React, Context API, Redux",
         value: 85,
     },
     {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
+        name: "Nodejs, Express.js",
         value: 60,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "PostgreSQL, MySQL, MongoDB",
+        value: 65,
     },
 ];
 
@@ -71,74 +80,73 @@ const services = [{
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
 ];
-
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img: mock1,
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link: "https://city-tours-seven.vercel.app/",
     },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    // {
+    //     img: "https://picsum.photos/400/800/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/600/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/300/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/700/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    //
+    // {
+    //     img: "https://picsum.photos/400/600/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/300/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/550/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/700/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
 ];
 
 const contactConfig = {
     YOUR_EMAIL: "asadullohruziev@gmail.com",
     YOUR_FONE: "(+998) 99-679-54-07",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    description: "Tashkent, Uzbekistan",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,12 +155,13 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/AsadullohRuziev?tab=repositories",
     // facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/asadullohruziev/",
     // twitter: "https://twitter.com",
     // youtube: "https://youtube.com",
-    twitch: "https://twitch.com",
+    // twitch: "https://twitch.com",
+    mail: 'asadullohruziev@gmail.com'
 };
 export {
     meta,

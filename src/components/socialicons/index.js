@@ -8,6 +8,8 @@ import {
   FaYoutube,
   FaTwitch,
 } from "react-icons/fa";
+import {BiMailSend} from 'react-icons/bi'
+
 import { socialprofils } from "../../content_option";
 
 export const Socialicons = (params) => {
@@ -56,6 +58,13 @@ export const Socialicons = (params) => {
             </a>
           </li>
         )}
+          {socialprofils.mail && (
+              <li>
+                  <a href='mailto: asadullohruziev@gmail.com' >
+                      <BiMailSend />
+                  </a>
+              </li>
+          )}
       </ul>
       <p>Follow Me</p>
     </div>
