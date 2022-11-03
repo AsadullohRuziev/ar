@@ -15,7 +15,7 @@ const introdata = {
         second: "I code cool websites",
         third: "I develop Web apps",
     },
-    description: "In react router v6, the exact prop has been removed and you can put your routes in whatever order you wish and the router automatically detects the best route for the current URL.",
+    description: "Having an integrated, holistic vision of IT and how it gears the business at various levels, touching plenty of dimensions, and being experienced at either of them. Design, building, and review of business-IT environments frameworks (big systems), revealing and leveraging untapped opportunities, delivering value to business, being in pace with technologies, leveraging best practices and going beyond. ",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
