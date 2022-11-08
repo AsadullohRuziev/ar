@@ -1,4 +1,8 @@
 import mock1 from './assets/portfolio/mock1.png';
+import hauzing from './assets/portfolio/hauzing.png';
+import converter from './assets/portfolio/converter.png';
+import expandcard from './assets/portfolio/card.png';
+import load from './assets/portfolio/loademore.png';
 
 
 
@@ -21,7 +25,7 @@ const introdata = {
 
 const dataabout = {
     title: "a bit about my self",
-    aboutme: "Now I would like to tell you something about my own background. I graduated from Academic lyceum of Termez State University in 📅2017 – 2019 with a degree Social Sciences GPA 4.82, after which I worked in the Frontend developer field . My years at university awakened a life long interest in Web development, UX & UI Design, Mobile apps and so on",
+    aboutme: "Now I would like to tell you something about my own background. I graduated from Academic lyceum of Termez State University in 2017 – 2019 with a degree Social Sciences GPA 4.82, after which I worked in the Frontend developer field . My years at university awakened a life long interest in Web development, UX & UI Design, Mobile apps and so on",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -83,64 +87,29 @@ const services = [{
 const dataportfolio = [{
         img: mock1,
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "https://city-tours-seven.vercel.app/",
+        link: "https://citytours-ar.netlify.app/",
     },
-    // {
-    //     img: "https://picsum.photos/400/800/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/600/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/300/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/700/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    //
-    // {
-    //     img: "https://picsum.photos/400/600/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/300/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/550/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/700/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
+    {
+        img: expandcard,
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "https://expandingcards-ar.netlify.app/",
+    },
+    {
+        img: hauzing,
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "https://houzing-ar.netlify.app",
+    },
+    {
+        img: load,
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "https://loadmore-ar.netlify.app/",
+    },
+    {
+        img: converter,
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "https://currencyconverter-ar.netlify.app",
+    },
+
 ];
 
 const contactConfig = {
