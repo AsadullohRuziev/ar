@@ -1,7 +1,7 @@
 .po_items_ho {
     column-width: 15em;
     -moz-column-width: 15em;
-    -webkit-column-width: 15em;
+    -webkit-column-width: 20em;
     column-gap: 4rem;
     -moz-column-gap: 4rem;
     -webkit-column-gap: 4rem;
@@ -26,13 +26,15 @@
     display: block;
     max-width: 100%;
     height: auto;
+    min-height: 350px;
+    object-fit: fill;
     box-sizing: border-box;
 }
 
 
 .image_port{
     max-width: 100%;
-    height: 5%;
+    height: 100%;
     box-sizing: border-box;
 }
 
