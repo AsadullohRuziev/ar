@@ -54,8 +54,8 @@ const skills = [
         value: 75,
     },
     {
-        name: "Javascript, Typescript",
-        value: 91,
+        name: "Javascript, Typescript, PHP",
+        value: 81,
     },
     {
         name: "React, Context API, Redux",
@@ -68,6 +68,10 @@ const skills = [
     {
         name: "PostgreSQL, MySQL, MongoDB",
         value: 65,
+    },
+    {
+        name: "Laravel",
+        value: 55,
     },
 ];
 
