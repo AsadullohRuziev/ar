@@ -103,11 +103,11 @@ const dataportfolio = [{
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "https://houzing-ar.netlify.app",
     },
-    {
-        img: load,
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "https://loadmore-ar.netlify.app/",
-    },
+    // {
+    //     img: load,
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "https://loadmore-ar.netlify.app/",
+    // },
     {
         img: converter,
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
